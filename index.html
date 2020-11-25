@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<title>Продвижение пациента</title>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Droid+Sans+Mono" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+	<link rel='stylesheet'
+		href='https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.3/jquery.mCustomScrollbar.min.css'>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/common.css" />
+	<link rel="stylesheet" type="text/css" href="css/style2.css" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="assets2/css/main.css" />
+	<!-- <script type="text/javascript" href="js/jquery-3.3.1.min.js"></script> -->
+
+
+	<script>
+		document.documentElement.className = 'js';
+	</script>
+</head>
+
+<body>
+
+	<div class="custom-chat">
+		<div class="chat">
+			<div class="chat-title">
+				<h1>MED BOT</h1>
+				<h2>Твой помощник по здоровию</h2>
+				<figure class="avatar">
+					<img src="css/bot.png" /></figure>
+			</div>
+			<div class="messages">
+				<div class="messages-content"></div>
+				<div class="suggession">
+
+				</div>
+			</div>
+			<form class="message-box" id="mymsg" method="POST">
+				<input type="text" id="MSG" name="MSG" class="message-input" placeholder="Type message...">
+
+				<i class="fas fa-microphone" id="start-record-btn"></i>
+				<button type="submit" class="message-submit">Send</button>
+			</form>
+			<h3 class="no-browser-support" hidden>Sorry, Your Browser Doesn't Support the Web Speech API. Try Opening
+				This
+				Demo In Google Chrome.</h3>
+		</div>
+	</div>
+
+	<main>
+		<div class="calendar-wrap">
+			<div class="calendar">
+				<div class="cube" data-bg-color="#F7E8ED" data-title=""></div>
+				<div class="cube" data-bg-color="#F2D9E6" data-title=""></div>
+				<div class="cube" data-bg-color="#ECC6DE" data-title=""></div>
+				<div class="cube" data-bg-color="#E0ECF5" data-title=""></div>
+				<div class="cube" data-bg-color="#DDF4DE" data-title=""></div>
+				<div class="cube" data-bg-color="#F0F1D5" data-title=""></div>
+				<div class="cube" data-bg-color="#EEDECD" data-title=""></div>
+				<div class="cube" data-bg-color="#B8E6B3" data-title=""></div>
+				<div class="cube" data-bg-color="#ABE3D8" data-title=""></div>
+				<div class="cube" data-bg-color="#E0E1F5" data-title=""></div>
+				<div class="cube" data-bg-color="#F7E8ED" data-title=""></div>
+				<div class="cube" data-bg-color="#F2D9E6" data-title=""></div>
+				<div class="cube" data-bg-color="#DFD1F0" data-title=""></div>
+				<div class="cube" data-bg-color="#E0ECF5" data-title=""></div>
+				<div class="cube" data-bg-color="#DDF4DE" data-title=""></div>
+				<div class="cube" data-bg-color="#F0F1D5" data-title=""></div>
+				<div class="cube" data-bg-color="#EEDECD" data-title=""></div>
+				<div class="cube" data-bg-color="#B8E6B3" data-title=""></div>
+				<div class="cube" data-bg-color="#ABE3D8" data-title=""></div>
+				<div class="cube" data-bg-color="#E0E1F5" data-title="УЗИ"></div>
+				<div class="cube" data-bg-color="#DFD1F0" data-title="Результаты"></div>
+				<div class="cube" data-bg-color="#DFD1F0" data-title="Консультация"></div>
+				<div class="cube" data-inactive data-bg-color="#6161616" data-title="Coming soon"></div>
+				<div class="cube" data-inactive data-bg-color="#6161616" data-title="Coming soon"></div>
+				<div class="cube" data-inactive data-bg-color="#6161616" data-title="Coming soon"></div>
+			</div>
+			<div class="content">
+				<div class="content__block">
+					<h3 class="content__title">Принятие таблеток и<p> упражнение</h3>
+					<p class="content__description">Амвастан 20 мг 1 (одну) таблетку, Тромбоасс 100мг 1 (одну) таблетку.
+						Ходьба пешком на максимально возможные расстояния!!! Первая неделя - 500 метров.</p>
+					<p class="content__meta">Доктор Оспан Асхатович</p>
+				</div>
+				<div class="content__block">
+					<h3 class="content__title">Принятие таблеток и<p> упражнение</h3>
+					<p class="content__description">Амвастан 20 мг 1 (одну) таблетку, Тромбоасс 100мг 1 (одну) таблетку.
+						Ходьба пешком на максимально возможные расстояния!!! Первая неделя - 500 метров.</p>
+					<p class="content__meta">Доктор Оспан Асхатович</p>
+				</div>
+				<div class="content__block">
+					<h3 class="content__title">Принятие таблеток и<p> упражнение</h3>
+					<p class="content__description">Амвастан 20 мг 1 (одну) таблетку, Тромбоасс 100мг 1 (одну) таблетку.
+						Ходьба пешком на максимально возможные расстояния!!! Первая неделя - 500 метров.</p>
+					<p class="content__meta">Доктор Оспан Асхатович</p>
+				</div>
+				<div class="content__block">
+					<h3 class="content__title">Принятие таблеток и<p> упражнение</h3>
+					<p class="content__description">Амвастан 20 мг 1 (одну) таблетку, Тромбоасс 100мг 1 (одну) таблетку.
+						Ходьба пешком на максимально возможные расстояния!!! Первая неделя - 500 метров.</p>
+					<p class="content__meta">Доктор Оспан Асхатович</p>
+				</div>
+				<div class="content__block">
+					<h3 class="content__title">Принятие таблеток, также <p>упражнение</h3>
+					<p class="content__description">Амвастан 20 мг 1 (одну) таблетку, Тромбоасс 100мг 1 (одну) таблетку.
+						Ходьба пешком на максимально возможные расстояния!!! Вторая неделя - 600 метров.</p>
+					<p class="content__meta">Доктор Оспан Асхатович</p>
+				</div>
+				<div class="content__block">
+					<h3 class="content__title">Принятие таблеток, также <p>упражнение</h3>
+					<p class="content__description">Амвастан 20 мг 1 (одну) таблетку, Тромбоасс 100мг 1 (одну) таблетку.
+						Ходьба пешком на максимально возможные расстояния!!! Вторая неделя - 600 метров.</p>
+					<p class="content__meta">Доктор Оспан Асхатович</p>
+				</div>
+				<div class="content__block">
+					<h3 class="content__title">Принятие таблеток, также <p>упражнение</h3>
+					<p class="content__description">Амвастан 20 мг 1 (одну) таблетку, Тромбоасс 100мг 1 (одну) таблетку.
+						Ходьба пешком на максимально возможные расстояния!!! Вторая неделя - 600 метров.</p>
+					<p class="content__meta">Доктор Оспан Асхатович</p>
+				</div>
+				<div class="content__block">
+					<h3 class="content__title">Принятие таблеток, также <p>упражнение</h3>
+					<p class="content__description">Амвастан 20 мг 1 (одну) таблетку, Тромбоасс 100мг 1 (одну) таблетку.
+						Ходьба пешком на максимально возможные расстояния!!! Вторая неделя - 600 метров.</p>
+					<p class="content__meta">Доктор Оспан Асхатович</p>
+				</div>
+				<div class="content__block">
+					<h3 class="content__title">Принятие таблеток, также<p> упражнение</h3>
+					<p class="content__description">Амвастан 20 мг 1 (одну) таблетку, Тромбоасс 100мг 1 (одну) таблетку.
+						Ходьба пешком на максимально возможные расстояния!!! Вторая неделя - 600 метров.</p>
+					<p class="content__meta">Доктор Оспан Асхатович</p>
+				</div>
+				<div class="content__block">
+					<h3 class="content__title">Принятие таблеток, также<p> упражнение</h3>
+					<p class="content__description">Амвастан 20 мг 1 (одну) таблетку, Тромбоасс 100мг 1 (одну) таблетку.
+						Ходьба пешком на максимально возможные расстояния!!! Вторая неделя - 600 метров.</p>
+					<p class="content__meta">Доктор Оспан Асхатович</p>
+				</div>
+				<div class="content__block">
+					<h3 class="content__title">Принятие таблеток, также <p>упражнение</h3>
+					<p class="content__description">Амвастан 20 мг 1 (одну) таблетку, Тромбоасс 100мг 1 (одну) таблетку.
+						Ходьба пешком на максимально возможные расстояния!!! Вторая неделя - 600 метров.</p>
+					<p class="content__meta">Доктор Оспан Асхатович</p>
+				</div>
+				<div class="content__block">
+					<h3 class="content__title">Принятие таблеток, также<p> упражнение</h3>
+					<p class="content__description">Амвастан 20 мг 1 (одну) таблетку, Тромбоасс 100мг 1 (одну) таблетку.
+						Ходьба пешком на максимально возможные расстояния!!! Третья неделя - 700 метров.</p>
+					<p class="content__meta">Доктор Оспан Асхатович</p>
+				</div>
+				<div class="content__block">
+					<h3 class="content__title">Принятие таблеток, также<p> упражнение</h3>
+					<p class="content__description">Амвастан 20 мг 1 (одну) таблетку, Тромбоасс 100мг 1 (одну) таблетку.
+						Ходьба пешком на максимально возможные расстояния!!! Третья неделя - 700 метров.</p>
+					<p class="content__meta">Доктор Оспан Асхатович</p>
+				</div>
+				<div class="content__block">
+					<h3 class="content__title">Принятие таблеток, также<p> упражнение</h3>
+					<p class="content__description">Амвастан 20 мг 1 (одну) таблетку, Тромбоасс 100мг 1 (одну) таблетку.
+						Ходьба пешком на максимально возможные расстояния!!! Третья неделя - 700 метров.</p>
+					<p class="content__meta">Доктор Оспан Асхатович</p>
+				</div>
+				<div class="content__block">
+					<h3 class="content__title">Принятие таблеток, также<p> упражнение</h3>
+					<p class="content__description">Амвастан 20 мг 1 (одну) таблетку, Тромбоасс 100мг 1 (одну) таблетку.
+						Ходьба пешком на максимально возможные расстояния!!! Третья неделя - 700 метров.</p>
+					<p class="content__meta">Доктор Оспан Асхатович</p>
+				</div>
+				<div class="content__block">
+					<h3 class="content__title">Принятие таблеток, также<p> упражнение</h3>
+					<p class="content__description">Амвастан 20 мг 1 (одну) таблетку, Тромбоасс 100мг 1 (одну) таблетку.
+						Ходьба пешком на максимально возможные расстояния!!! Третья неделя - 700 метров.</p>
+					<p class="content__meta">Доктор Оспан Асхатович</p>
+				</div>
+				<div class="content__block">
+					<h3 class="content__title">Принятие таблеток, также <p>упражнение</h3>
+					<p class="content__description">Амвастан 20 мг 1 (одну) таблетку, Тромбоасс 100мг 1 (одну) таблетку.
+						Ходьба пешком на максимально возможные расстояния!!! Третья неделя - 700 метров.</p>
+					<p class="content__meta">Доктор Оспан Асхатович</p>
+				</div>
+				<div class="content__block">
+					<h3 class="content__title">Принятие таблеток, также<p> упражнение</h3>
+					<p class="content__description">Амвастан 20 мг 1 (одну) таблетку, Тромбоасс 100мг 1 (одну) таблетку.
+						Ходьба пешком на максимально возможные расстояния!!! Третья неделя - 700 метров.</p>
+					<p class="content__meta">Доктор Оспан Асхатович</p>
+				</div>
+				<div class="content__block">
+					<h3 class="content__title">Принятие таблеток, также<p> упражнение</h3>
+					<p class="content__description">Амвастан 20 мг 1 (одну) таблетку, Тромбоасс 100мг 1 (одну) таблетку.
+						Ходьба пешком на максимально возможные расстояния!!! Третья неделя - 700 метров.</p>
+					<p class="content__meta">Доктор Оспан Асхатович</p>
+				</div>
+				<div class="content__block">
+					<h3 class="content__title">УЗИ</h3>
+					<p class="content__description">УЗИ артерии нижних конечностей.</p>
+					<p class="content__meta">Доктор Оспан Асхатович</p>
+				</div>
+				<div class="content__block">
+					<h3 class="content__title">Результаты</h3>
+					<p class="content__description">Забрать результаты УЗИ анализа.</p>
+					<p class="content__meta">Доктор Оспан Асхатович</p>
+				</div>
+				<div class="content__block">
+					<h3 class="content__title">Консультация </h3>
+					<p class="content__description">Консультация ангиохирурга.</p>
+					<p class="content__meta">Доктор Оспан Асхатович</p>
+				</div>
+				<div class="content__number">0</div>
+				<button class="btn-back" aria-label="Back to the grid view">&crarr;</button>
+			</div><!-- /content -->
+		</div>
+	</main>
+	<svg class="hidden"></svg>
+
+	</header>
+
+
+	<script type="text/javascript">
+		$(window).scroll(function () {
+			var sc = $(window).scrollTop()
+			if (sc > 100) {
+				$("#header-sroll").addClass("small")
+			} else {
+				$("#header-sroll").removeClass("small")
+			}
+		});
+	</script>
+	<script src="js/charming.min.js"></script>
+	<script src="js/anime.min.js"></script>
+	<script src="js/textfx.js"></script>
+	<script src="js/main2.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
+	<script src='js/jquery-3.0.0.js'></script>
+	<script src='js/jquery.mCustomScrollbar.concat.min.js'></script>
+	<script src="js/index.js"></script>
+
+</body>
+
+</html>

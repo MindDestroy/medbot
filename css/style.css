@@ -1,0 +1,156 @@
+.sidebar{
+	transition: 1s margin-left;
+	background-color: #011B1D;
+	color: #000000;
+	width: 20%;
+	height: 850px;
+	margin-left: -350px;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	opacity: 0.9;
+	z-index: 0;
+}
+.header{
+	height: 150px;
+	background-color: #253435;
+	opacity: .9;
+	z-index: 50;
+
+}
+.menu{
+	transition: 1s all;
+	background-color: #293132;
+	color: #ffffff;
+	font-size: 50px;
+	border: 5px solid #336A86;
+	border-radius: 30px;
+	text-align: center;
+	font-weight: 500px;
+	padding: 20px;
+	margin-top: 50px;
+}
+.menu:hover{
+	transform: scale(0.8);
+	background-color: #753625;
+	box-shadow: 10px 10px 10px #000000;
+}
+.im{
+	transition: 1s all;
+	background-color: white;
+	background-image: url(../img/1.jpg);
+	background-size: 200px 200px;
+	background-repeat: no-repeat;
+	border-radius: 100px;
+	border: 5px solid #753625;
+	width: 200px;
+	height: 200px;
+	margin: auto;
+}
+.im:hover{
+	transform: scale(0.7) rotate(360deg);
+}
+.name{
+	color: #ffffff;
+	margin: auto;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 24px;
+	border-radius: 100px;
+	padding: 10px;
+}
+#menu{
+	transition: 0.1s all;
+	box-sizing: border-box;
+	width: 75px;
+	margin: 30px;
+	margin-left: -175px;
+	z-index: 100;
+	opacity: 1;
+}
+#menu:active{
+	transform: scale(0.9);
+}
+body{
+	background-image: url(../img/000.jpg);
+}
+#form{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+input[type=submit] {
+    transition: 1s all;
+	background-color: #293132;
+	color: #ffffff;
+	font-size: 50px;
+	font-weight: 500px;
+	border: 5px solid #336A86;
+	border-radius: 30px;
+	text-align: center;	
+	padding: 20px;
+	cursor: pointer;
+	width: 100%;
+	margin-top: 20px;
+}
+input[type=submit]:hover{
+	transform: scale(0.8);
+	background-color: #753625;
+	box-shadow: 10px 10px 10px #000000;
+}
+.imdoctor{
+	transition: 1s all;
+	background-color: white;
+	background-image: url(../img/1.jpg);
+	background-size: 200px 200px;
+	background-repeat: no-repeat;
+	border-radius: 100px;
+	border: 5px solid #753625;
+	width: 100px;
+	height: 100px;
+}
+.colordarkblue{
+	background-color: #253435;
+	opacity: .9;
+	height: 150px;
+	text-align: center;
+}
+#doctorname{
+	text-align: center;
+	margin-top: 50px;
+	font-size: 30px;
+	color: #ffffff;
+	font-weight: 900px;
+}
+.doc{
+	transition: 1s all;
+	background-position: center;
+	background-size: 200px 150px;
+	background-repeat: no-repeat;
+	background-image: url(../img/doc.jpg);
+	border-radius: 10px;
+	width: 50px;
+	height: 150px;
+}
+
+#main{
+	margin:auto;
+	background-color: white;
+}
+table{
+    width: 50%;
+    margin-left: : 1000px;
+    border-collapse: collapse;
+    text-align: left;
+}
+tr {
+    border-bottom: 1px solid #cbcbcb;
+}
+th, td{
+    border: none;
+    height: 30px;
+    padding: 2px;
+}
+tr:hover {
+    background: #F5F5F5;
+}
+
